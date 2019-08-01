@@ -1,13 +1,44 @@
+@charset "UTF-8";
 .list li {
-  width: 100px;
-  height: 50px;
   color: red; }
-
-.box {
-  width: 100px;
-  height: 50px; }
+  .list li h3 {
+    font-weight: 700;
+    font-size: 17px; }
+  .list li p {
+    color: blue;
+    font-size: 12px; }
+  .list li:nth-child(2) {
+    color: green; }
+  .list li:last-child {
+    color: goldenrod; }
+  .box {
+    width: 100px;
+    height: 50px;
+    background: #000; }
 
 .box2 {
-  width: 110px;
-  height: 100px;
-  background: #000; }
+  width: 300px;
+  height: 250px;
+  background: url("../img/git.png") no-repeat 0 0 blue;
+  background: url("../img/git.png") no-repeat 0 0 blue; }
+
+.box {
+  background: gold; }
+
+.box3 {
+  /* 상대적 단위 연산 
+    width: 50% - 20px;  단위 모순 에러(Incompatible units error) */
+  width: calc(50% - 20px);
+  /* 나누기 연산 주의할 점 */
+  width: 50px;
+  height: 50px;
+  font-size: 14px;
+  background: gold; }
+
+/* 문자 연산에는 +가 사용됩니다.
+문자 연산의 결과는 첫 번째 피연산자를 기준으로 합니다.
+첫 번째 피연산자에 따옴표가 붙어있다면 연산 결과를 따옴표로 묶습니다.
+반대로 첫 번째 피연산자에 따옴표가 붙어있지 않다면 연산 결과도 따옴표를 처리하지 않습니다. */
+div:after {
+  content: "Hello World";
+  flex-flow: row-reverse wrap; }
