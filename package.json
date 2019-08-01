@@ -1,23 +1,23 @@
 {
-  "name": "study-SCSS",
+  "name": "study-scss",
   "version": "1.0.0",
   "description": "hi",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0",
     "webpack": "^4.38.0"
   },
+  "devDependencies": {},
   "scripts": {
-    "test": "test중입니다."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ehakck7/study-SCSS.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "function_dh",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ehakck7/study-SCSS/issues"

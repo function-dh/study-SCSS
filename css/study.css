@@ -1,0 +1,13 @@
+.list li {
+  width: 100px;
+  height: 50px;
+  color: red; }
+
+.box {
+  width: 100px;
+  height: 50px; }
+
+.box2 {
+  width: 110px;
+  height: 100px;
+  background: #000; }

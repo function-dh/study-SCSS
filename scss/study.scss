@@ -1,0 +1,19 @@
+.list {
+	$w: 100px;
+	$h: 50px;
+	li {
+		width: $w;
+		height: $h;
+		color : red;
+	}
+	@at-root .box {
+		width: $w;
+		height: $h;
+	}
+}
+$w: 110px;
+.box2{
+	width: $w;
+	height: 100px;
+	background: #000;
+}
