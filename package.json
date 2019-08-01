@@ -1,0 +1,26 @@
+{
+  "name": "study-SCSS",
+  "version": "1.0.0",
+  "description": "hi",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "webpack": "^4.38.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehakck7/study-SCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehakck7/study-SCSS/issues"
+  },
+  "homepage": "https://github.com/ehakck7/study-SCSS#readme"
+}
