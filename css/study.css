@@ -79,7 +79,7 @@ h6.mixin {
     height: 50px;
     background-color: gold;
     position: fixed;
-    top: 50px;
+    top: 150px;
     right: 150px; }
   .pos .move2 {
     display: inline-block;
@@ -87,7 +87,7 @@ h6.mixin {
     height: 50px;
     background-color: gold;
     position: fixed;
-    top: 50px;
+    top: 150px;
     right: 150px; }
   .pos .move2 {
     position: absolute; }
