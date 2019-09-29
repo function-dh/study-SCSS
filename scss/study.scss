@@ -220,7 +220,7 @@ div {
 
 span {
     // 필요한 값만 키워드 인수로 변수에 담아 전달
-    $font-values: (style: italic, size: 22px);
+    $font-values: (style: italic, size: 21px);
     @include font($font-values...);
 }
 
